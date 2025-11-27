@@ -22,7 +22,7 @@ a {
 
 header {
   height: 41.54479166vw;
-  background-color: #cdff00;
+  background-color: #000000;
   border-bottom: 0.4629vw solid #000000;
 
   flex-direction: column;
@@ -79,7 +79,7 @@ nav {
   font-family: "Merriweather Sans", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #000000;
+  background-color: #dac400;
   font-size: 1.851vw;
   color: #f3f6ef;
   width: fit-content;
@@ -178,7 +178,7 @@ nav {
 }
 
 .about-info-top {
-  background-color: #cdff00;
+  background-color: #ffffff;
   height: 5.55vw;
   width: 46vw;
   position: absolute;
@@ -194,7 +194,7 @@ nav {
   border-top-left-radius: 1.1574vw;
   border-bottom-left-radius: 1.1574vw;
   border-bottom-right-radius: 1.1574vw;
-  background-color: #cdff00;
+  background-color: #ffffff;
   border: 0.4629vw #000000 solid;
   padding-top: 5.787037vw;
   position: relative;
@@ -202,11 +202,15 @@ nav {
 }
 
 .about-info-img {
-  width: 100%;
+  width: 50%;
   position: absolute;
   bottom: 0;
   z-index: 10;
   pointer-events: none;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .left-about-info {
@@ -422,7 +426,7 @@ nav {
 }
 
 .imgs-container-tokenomics {
-  background-color: #cdff00;
+  background-color: #ebebeb;
   width: 95%;
   height: 95%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
