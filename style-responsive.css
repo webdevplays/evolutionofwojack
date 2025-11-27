@@ -1,0 +1,435 @@
+@media only screen and (max-width: 1050px) {
+  header {
+    height: 58vw;
+    border-bottom: 0.69435vw solid #000000;
+  }
+
+  nav {
+    padding: 0.17361vw 10vw;
+  }
+
+  .brand {
+    font-size: 5.55555vw;
+  }
+
+  .nav-list {
+    gap: 2.2569435vw;
+  }
+
+  .nav-link {
+    font-size: 2.7765vw;
+  }
+
+  .buy-btn-container {
+    padding: 0px 10vw;
+    height: 8.325vw;
+  }
+
+  .buy-btn {
+    gap: 0.86805vw;
+    font-size: 2.7765vw;
+    padding-left: 1.38885vw;
+    border-radius: 0.607638vw;
+    border: 0.2604165vw solid #000000;
+  }
+
+  .buy-btn span {
+    padding: 0.86805vw;
+  }
+
+  .buy-btn img {
+    width: 2.7765vw;
+  }
+
+  .trell-header-logo {
+    width: 90vw;
+    bottom: -1vw;
+  }
+
+  /*=================================================*/
+
+  .dashed-row {
+    border-top: 0.69435vw dashed #d3e4d6;
+    margin: 1.38885vw 0;
+  }
+
+  .about {
+    padding: 5.55555vw 10vw;
+    gap: 2vw;
+  }
+
+  .about-text {
+    font-size: 2vw;
+    padding: 2.7765vw 2.2569435vw;
+    border-bottom-right-radius: 1.7361vw;
+    border-top-right-radius: 1.7361vw;
+    border-top-left-radius: 1.7361vw;
+  }
+
+  .about-title {
+    font-size: 4vw;
+    padding: 0px 2.2569435vw 1.38885vw;
+    border-bottom-left-radius: 1.7361vw;
+    border-bottom-right-radius: 1.7361vw;
+    width: 22vw;
+  }
+  .about-info-top {
+    height: 5.55vw;
+    width: 50vw;
+    bottom: calc(100% - 0.405092vw);
+    right: 0;
+    border-top-right-radius: 1.7361vw;
+  }
+
+  .about-info-container {
+    border-top-left-radius: 1.7361vw;
+    border-bottom-left-radius: 1.7361vw;
+    border-bottom-right-radius: 1.7361vw;
+    border: 0.4629vw #000000 solid;
+    padding-top: 5.787037vw;
+    height: 40vw;
+  }
+
+  .left-about-info h2 {
+    font-size: 4vw;
+    padding: 0 4vw;
+  }
+
+  .coin-name {
+    height: 16vw;
+    width: 16vw;
+  }
+
+  .coin-name img {
+    width: 20vw;
+  }
+
+  .coin-name-about {
+    font-size: 4vw;
+  }
+
+  .loading-img {
+    width: 18vw;
+  }
+
+  .talk {
+    top: 3.7037vw;
+    right: 3.7037vw;
+    font-size: 3vw;
+  }
+
+  /*=================================================*/
+
+  .how-to-buy {
+    padding: 0 10vw;
+  }
+
+  .left-card-container,
+  .right-card-container {
+    padding: 1.38885vw;
+    width: 43.5%;
+    border: 0.69435vw solid #000;
+    border-radius: 1.7361vw;
+    gap: 1.7361vw;
+  }
+
+  .card-top {
+    padding: 1.38885vw;
+    border-radius: 1.7361vw;
+    font-size: 4vw;
+  }
+
+  .card-body {
+    height: 34.72215vw;
+    border-radius: 1.1574vw;
+  }
+
+  .card-text {
+    padding: 1.1574vw;
+    border-radius: 1.1574vw;
+    font-size: 2.5vw;
+  }
+
+  /*=================================================*/
+
+  .tokenomics {
+    padding: 5.55555vw 10vw;
+  }
+
+  .tokenomics-container {
+    border: 0.69435vw solid #000;
+    border-radius: 1.7361vw;
+    font-size: 2vw;
+    height: 15vw;
+  }
+
+  .left-tokenomics {
+    padding: 1.7361vw;
+  }
+
+  #token {
+    font-size: 2.5vw;
+  }
+
+  #copy {
+    font-size: 6vw;
+  }
+
+  .right-tokenomics {
+    width: 32%;
+    border-top-right-radius: 0.868055vw;
+    border-bottom-right-radius: 0.868055vw;
+  }
+
+  .imgs-container-tokenomics {
+    border-top-right-radius: 0.868055vw;
+    border-bottom-right-radius: 0.868055vw;
+  }
+
+  .token-img {
+    width: 15.914351vw;
+    right: 3.2407vw;
+  }
+
+  .token-arrow-img {
+    width: 4.62962vw;
+    bottom: -1.851vw;
+    right: 1.851vw;
+  }
+
+  footer {
+    font-size: 2.5vw;
+    padding: 1.1574vw 0 1.851vw;
+  }
+
+  .brand img {
+    width: 17.5vw;
+  }
+
+  .card-img-text {
+    font-size: 1.5vw;
+    top: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .brand img {
+    width: 22.5vw;
+  }
+
+  header {
+    height: 64vw;
+    border-bottom: 0.75vw solid #000000;
+  }
+
+  nav {
+    padding: 0.5vw 6vw;
+  }
+
+  .brand {
+    font-size: 7vw;
+  }
+
+  .nav-list {
+    gap: 2.2569435vw;
+  }
+
+  .nav-link {
+    font-size: 3.5vw;
+  }
+
+  .buy-btn-container {
+    padding: 0px 6vw;
+    height: 12.5vw;
+  }
+
+  .buy-btn {
+    gap: 1.5vw;
+    font-size: 4vw;
+    padding-left: 2vw;
+    border-radius: 0.607638vw;
+    border: 0.5vw solid #000000;
+  }
+
+  .buy-btn span {
+    padding: 0.86805vw;
+  }
+
+  .buy-btn img {
+    width: 5vw;
+  }
+
+  .trell-header-logo {
+    width: 87.5vw;
+    bottom: 0vw;
+  }
+
+  /*=================================================*/
+
+  .dashed-row {
+    border-top: 0.69435vw dashed #d3e4d6;
+    margin: 1.38885vw 0;
+  }
+
+  .about {
+    padding: 5.55555vw 6vw;
+    gap: 2vw;
+  }
+
+  .about-text {
+    font-size: 3vw;
+  }
+
+  .about-title {
+    font-size: 7vw;
+    padding: 0px 2.2569435vw 1.38885vw;
+    border-bottom-left-radius: 1.7361vw;
+    border-bottom-right-radius: 1.7361vw;
+    width: 25vw;
+  }
+
+  .about-info-top {
+    height: 9vw;
+    width: 47.5vw;
+    bottom: calc(100% - 0.71vw);
+    right: 0;
+    border-top-right-radius: 1.7361vw;
+    border: 0.75vw #000000 solid;
+    border-bottom: 0;
+  }
+
+  .about-info-container {
+    border-top-left-radius: 1.7361vw;
+    border-bottom-left-radius: 1.7361vw;
+    border-bottom-right-radius: 1.7361vw;
+    border: 0.75vw #000000 solid;
+    padding-top: 5.787037vw;
+    height: 40vw;
+  }
+
+  .left-about-info h2 {
+    font-size: 4vw;
+    padding: 0 4vw;
+  }
+
+  .coin-name {
+    height: 16vw;
+    width: 16vw;
+  }
+
+  .coin-name img {
+    width: 20vw;
+  }
+
+  .coin-name-about {
+    font-size: 4vw;
+  }
+
+  .loading-img {
+    width: 18vw;
+  }
+
+  .talk {
+    top: 3.7037vw;
+    right: 3.7037vw;
+    font-size: 3vw;
+  }
+
+  /*=================================================*/
+
+  .how-to-buy {
+    padding: 0 6vw;
+  }
+
+  .card-top {
+    padding: 1.38885vw;
+    border-radius: 1.7361vw;
+    font-size: 3.5vw;
+  }
+
+  .card-text {
+    padding: 1.1574vw;
+    border-radius: 1.1574vw;
+    font-size: 2.25vw;
+  }
+
+  .tokenomics-left-container img {
+    width: 4vw;
+  }
+
+  .tokenomics-left-container #dexscr img {
+    width: 4.5vw;
+  }
+
+  .tokenomics-links {
+    gap: 10px;
+  }
+
+  /*=================================================*/
+
+  .tokenomics {
+    padding: 5.55555vw 6vw;
+  }
+
+  .tokenomics-container {
+    border: 0.75vw solid #000;
+    border-radius: 1.7361vw;
+    font-size: 2.5vw;
+    height: 25vw;
+  }
+
+  .left-tokenomics {
+    padding: 1.7361vw;
+  }
+
+  #token {
+    font-size: 3vw;
+  }
+
+  #copy {
+    font-size: 8vw;
+  }
+
+  .right-tokenomics {
+    width: 32%;
+    border-top-right-radius: 0.868055vw;
+    border-bottom-right-radius: 0.868055vw;
+  }
+
+  .imgs-container-tokenomics {
+    border-top-right-radius: 0.868055vw;
+    border-bottom-right-radius: 0.868055vw;
+  }
+
+  .token-img {
+    width: 17.5vw;
+    right: 3.2407vw;
+  }
+
+  .token-arrow-img {
+    width: 4.62962vw;
+    bottom: -1.851vw;
+    right: 1.851vw;
+  }
+
+  footer {
+    font-size: 3vw;
+    padding: 1.1574vw 0 1.851vw;
+  }
+
+  #finger-img {
+    width: vw;
+    position: absolute;
+    right: -1.1574vw;
+  }
+
+  .card-link {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+  }
+
+  .card-link img {
+    width: 6vw;
+  }
+}

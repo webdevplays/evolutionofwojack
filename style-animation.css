@@ -1,0 +1,130 @@
+* {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #cdff00;
+}
+
+.buy-btn:hover {
+  transform: scale(1.025);
+}
+
+.coin-name {
+  animation: heartbeat 1.75s infinite ease-in-out;
+}
+
+.card-body img {
+  animation: heartbeat 1.75s infinite ease-in-out;
+}
+
+#wallet-img {
+  opacity: 0;
+  transform: scale(0.2) translateY(100px);
+  animation: flyIn 3s ease-in-out infinite;
+}
+
+@keyframes flyIn {
+  0% {
+    transform: scale(0.2) translateY(100px);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.1) translateY(-30px);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1) translateY(0);
+  }
+  75% {
+    transform: scale(1.3) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.8) translateY(-100px);
+    opacity: 0;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.04) translateY(-5px); /* grow + move up */
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.02) translateY(-3px); /* smaller pulse */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.talk {
+  animation: wiggle 2s infinite ease-in-out;
+}
+
+.token-img {
+  animation: wiggleZero 2s infinite ease-in-out;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(28deg);
+  }
+  25% {
+    transform: rotate(32deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(32deg);
+  }
+  100% {
+    transform: rotate(28deg);
+  }
+}
+
+@keyframes wiggleZero {
+  0% {
+    transform: rotate(-2deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.token-arrow-img {
+  animation: floatUpDown 2s infinite ease-in-out;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* goes up */
+  }
+  100% {
+    transform: translateY(0); /* back to start */
+  }
+}
+
+#copy:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}

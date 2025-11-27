@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f6ef;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 41.54479166vw;
+  background-color: #cdff00;
+  border-bottom: 0.4629vw solid #000000;
+
+  flex-direction: column;
+  display: flex;
+}
+
+nav {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.11574vw 14.81481vw;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand img {
+  width: 10vw;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.504629vw;
+}
+
+.nav-link {
+  color: #f3f6ef;
+  font-size: 1.851vw;
+}
+
+.buy-btn-container {
+  padding: 0px 14.81481vw;
+  height: 5.55vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.buy-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5787vw;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #000000;
+  font-size: 1.851vw;
+  color: #f3f6ef;
+  width: fit-content;
+  padding-left: 0.9259vw;
+  overflow: hidden;
+  border-radius: 0.405092vw;
+  border: 0.173611vw solid #000000;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.buy-btn span {
+  display: flex;
+  align-items: center;
+  background-color: #f3f6ef;
+  padding: 0.5787vw;
+}
+
+.buy-btn img {
+  width: 1.851vw;
+}
+
+.header-content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.trell-header-logo {
+  width: 75vw;
+  bottom: 0vw;
+  position: absolute;
+  pointer-events: none;
+}
+
+.trell-header-img {
+  width: 20vw;
+  bottom: 0vw;
+  left: 2vw;
+  position: absolute;
+  pointer-events: none;
+}
+
+/*=================================================*/
+
+.dashed-row {
+  width: 100%;
+  border-top: 0.4629vw dashed #e0e4d3;
+  margin: 0.9259vw 0;
+}
+
+.about {
+  padding: 3.7037vw 14.81481vw;
+  flex-direction: column;
+  display: flex;
+  gap: 1.1574vw;
+}
+
+.about-text {
+  background-color: #000000;
+  color: #f3f6ef;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.1574vw;
+  padding: 1.851vw 1.504629vw;
+  border-bottom-right-radius: 1.1574vw;
+  border-top-right-radius: 1.1574vw;
+  border-top-left-radius: 1.1574vw;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.about-title {
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #cdff00;
+  background-color: #000000;
+  width: fit-content;
+  font-size: 3.7037vw;
+  padding: 0px 1.504629vw 0.9259vw;
+  border-bottom-left-radius: 1.1574vw;
+  border-bottom-right-radius: 1.1574vw;
+  width: 18.518vw;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.about-info {
+  position: relative;
+}
+
+.about-info-top {
+  background-color: #cdff00;
+  height: 5.55vw;
+  width: 46vw;
+  position: absolute;
+  bottom: calc(100% - 0.405092vw);
+  right: 0;
+  border-top-right-radius: 1.1574vw;
+  border: 0.4629vw #000000 solid;
+  border-bottom: none;
+  z-index: 1;
+}
+
+.about-info-container {
+  border-top-left-radius: 1.1574vw;
+  border-bottom-left-radius: 1.1574vw;
+  border-bottom-right-radius: 1.1574vw;
+  background-color: #cdff00;
+  border: 0.4629vw #000000 solid;
+  padding-top: 5.787037vw;
+  position: relative;
+  height: 38.921296vw;
+}
+
+.about-info-img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.left-about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+  z-index: 100;
+}
+
+.left-about-info h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.77vw;
+  margin: 0;
+  color: #000000;
+  padding: 0 3.7037vw;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.coin-name {
+  position: relative;
+  height: 14.81481vw;
+  width: 14.81481vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-name img {
+  width: 14.81481vw;
+  position: absolute;
+}
+
+.coin-name-about {
+  position: absolute;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #cdff00;
+  font-size: 3.2407vw;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.loading-img {
+  width: 14.81481vw;
+}
+
+.talk {
+  position: absolute;
+  top: 3.7037vw;
+  right: 3.7037vw;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 5;
+  font-size: 1.851vw;
+  text-align: center;
+  transform: rotate(30deg);
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+/*=================================================*/
+
+.how-to-buy {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 14.81481vw;
+}
+
+.left-card-container,
+.right-card-container {
+  padding: 0.9259vw;
+  width: 45%;
+  border: 0.4629vw solid #000;
+  background-color: #e0e4d3;
+  border-radius: 1.1574vw;
+  flex-direction: column;
+  display: flex;
+  gap: 1.1574vw;
+}
+
+.card-top {
+  background-color: #000;
+  color: #f3f6ef;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.9259vw;
+  border-radius: 1.1574vw;
+  font-size: 2.662037vw;
+  text-align: center;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.card-body {
+  position: relative;
+  height: 23.1481vw;
+  background-color: #cdff00;
+  border-radius: 1.1574vw;
+}
+
+.card-body img {
+  position: absolute;
+  width: 100%;
+}
+
+.card-text {
+  background-color: #000;
+  color: #e0e4d3;
+  font-weight: bold;
+  padding: 1.1574vw;
+  border-radius: 1.1574vw;
+  font-size: 2vw;
+  flex: 1;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-left-text {
+  font-size: 2vw;
+}
+
+.right-card-body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.right-card-body img {
+  width: auto;
+  height: 80%;
+  bottom: 0;
+}
+
+.right-card-text {
+  background-color: transparent;
+  color: #000;
+}
+
+.card-img-text {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  position: absolute;
+  font-size: 1.5vw;
+  top: 1vw;
+}
+
+/*=================================================*/
+
+.tokenomics {
+  padding: 3.7037vw 14.81481vw;
+}
+
+.tokenomics-container {
+  background-color: #000;
+  border: 0.4629vw solid #000;
+  border-radius: 1.1574vw;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1574vw;
+  color: #e0e4d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13.75vw;
+  position: relative;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.left-tokenomics {
+  padding: 1.1574vw;
+}
+
+#token {
+  font-size: 1.5vw;
+  color: #f3f6ef;
+}
+
+#copy {
+  color: #cdff00;
+  font-size: 4.7453vw;
+}
+
+.right-tokenomics {
+  background-color: #e0e4d3;
+  height: 100%;
+  width: 32%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 0.868055vw;
+  border-bottom-right-radius: 0.868055vw;
+}
+
+.imgs-container-tokenomics {
+  background-color: #cdff00;
+  width: 95%;
+  height: 95%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  border-top-right-radius: 0.868055vw;
+  border-bottom-right-radius: 0.868055vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.token-img {
+  width: 10vw;
+  position: absolute;
+  right: 5vw;
+}
+
+.token-arrow-img {
+  position: absolute;
+  right: 0;
+  width: 4.62962vw;
+  bottom: -1.851vw;
+  right: 1.851vw;
+}
+
+footer {
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.504629vw;
+  padding: 1.1574vw 0 1.851vw;
+  text-align: center;
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+}
+
+.yellow-color {
+  color: #cdff00;
+}
+
+.tokenomics-left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tokenomics-left-container img {
+  width: 2vw;
+}
+
+.tokenomics-left-container #dexscr img {
+  width: 2.5vw;
+}
+
+.tokenomics-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-img-bottom {
+  display: flex;
+  align-items: end;
+  position: relative;
+  margin-top: 1vw;
+  justify-content: center;
+}
+
+#finger-img {
+  width: 10.4166vw;
+  position: absolute;
+  right: -1.1574vw;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  margin-right: 1.04166vw;
+}
+
+.card-link img {
+  width: 4.5vw;
+}
